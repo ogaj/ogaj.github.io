@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad — OpenClaw Calendar</title>
+  <meta name="description" content="Política de privacidad del asistente personal OpenClaw Calendar">
+  <style>
+    body { font-family: -apple-system, system-ui, Segoe UI, Roboto, sans-serif; max-width: 680px; margin: 40px auto; padding: 0 20px; color: #1a202c; line-height: 1.6; }
+    h1 { font-size: 1.8em; margin-bottom: 0.2em; }
+    h2 { font-size: 1.15em; margin-top: 1.6em; }
+    .meta { color: #6b7280; font-size: 0.9em; margin-top: 0; }
+    code { background: #f3f4f6; padding: 2px 6px; border-radius: 3px; font-size: 0.9em; }
+    a { color: #2563eb; }
+    footer { margin-top: 40px; color: #9ca3af; font-size: 0.85em; }
+  </style>
+</head>
+<body>
+  <h1>Política de Privacidad</h1>
+  <p class="meta">Última actualización: 16 de septiembre de 2026</p>
+
+  <p>OpenClaw Calendar ("la app") es un proyecto personal que ofrece un asistente para gestionar Google Calendar. Esta página describe qué datos maneja y con qué propósito.</p>
+
+  <h2>Datos que se acceden</h2>
+  <p>La app solicita acceso de lectura y escritura al Google Calendar principal del usuario autorizado, usando el scope <code>https://www.googleapis.com/auth/calendar</code>. Esto le permite crear, modificar, listar y eliminar eventos en su nombre.</p>
+
+  <h2>Uso de los datos</h2>
+  <p>Los eventos y metadatos del calendario se procesan únicamente para ejecutar acciones pedidas explícitamente por el usuario (crear, buscar, listar, modificar o borrar eventos). La app no usa esos datos para entrenar modelos, analítica, ni los comparte con terceros.</p>
+
+  <h2>Almacenamiento</h2>
+  <p>Las credenciales OAuth (access token y refresh token) se guardan localmente en el dispositivo del usuario en <code>~/.config/gcal/token.json</code> con permisos <code>0600</code>. No se suben a ningún servidor externo.</p>
+
+  <h2>Terceros</h2>
+  <p>La única comunicación con servicios externos es con la API oficial de Google Calendar (<code>googleapis.com</code>). No hay integraciones adicionales, ni analítica, ni redes de anuncios.</p>
+
+  <h2>Responsable</h2>
+  <p>Juan Alberto — <a href="mailto:juanalbertogo@gmail.com">juanalbertogo@gmail.com</a></p>
+
+  <h2>Cambios</h2>
+  <p>Si esta política cambia, se actualizará la fecha de "última actualización" arriba.</p>
+
+  <p><a href="./">← Volver al inicio</a></p>
+
+  <footer>© 2026 · Juan Alberto</footer>
+</body>
+</html>
